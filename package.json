@@ -1,9 +1,12 @@
 {
   "name": "@warp-works/warpjs-change-logs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Change logs library for WarpJS.",
   "main": "index.js",
   "scripts": {
+    "prepublish": "npm run -s lint",
+    "lint": "npm run -s lint:node",
+    "lint:node": "eslint --fix --config=.eslintrc.node.json *.js lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,10 +31,19 @@
     "lodash": "4.17.x"
   },
   "peerDependencies": {
-    "@quoin/expressjs-routes-info": "latest"
+    "@quoin/expressjs-routes-info": "0.2.x"
   },
   "devDependencies": {
+    "@quoin/eslint-config-quoin": "latest",
     "@quoin/expressjs-routes-info": "latest",
+    "@warp-works/warpjs-plugins": "latest",
+    "eslint": "4.19.x",
+    "eslint-plugin-html": "4.0.x",
+    "eslint-plugin-import": "2.12.x",
+    "eslint-plugin-json": "1.2.x",
+    "eslint-plugin-node": "6.0.x",
+    "eslint-plugin-promise": "3.8.x",
+    "eslint-plugin-standard": "3.1.x",
     "express": "4"
   }
 }

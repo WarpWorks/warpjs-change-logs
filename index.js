@@ -1,4 +1,3 @@
-const _ = require('lodash');
 // const debug = require('debug')('W2:ChangeLogs:index');
 const Promise = require('bluebird');
 
@@ -35,9 +34,8 @@ class ChangeLogs {
             throw new ChangeLogsError(`Invalid action='${action}'.`);
         }
 
-        const userInfo = pickUserInfo(user);
         const changeLogs = new ChangeLogs(instance);
-        changeLogs.add(new ChangeLog(user, data));
+        changeLogs.add(new ChangeLog(pickUserInfo(user), data));
 
         return instance;
     }
