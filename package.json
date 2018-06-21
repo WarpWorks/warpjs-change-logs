@@ -1,0 +1,37 @@
+{
+  "name": "@warp-works/warpjs-change-logs",
+  "version": "1.0.0",
+  "description": "Change logs library for WarpJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarpWorks/warpjs-change-logs.git"
+  },
+  "keywords": [
+    "warp-works",
+    "warpjs",
+    "change-logs"
+  ],
+  "author": "huu da",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WarpWorks/warpjs-change-logs/issues"
+  },
+  "homepage": "https://github.com/WarpWorks/warpjs-change-logs#readme",
+  "dependencies": {
+    "@warp-works/warpjs-utils": "release-1.2",
+    "bluebird": "3.5.x",
+    "debug": "3.1.x",
+    "lodash": "4.17.x"
+  },
+  "peerDependencies": {
+    "@quoin/expressjs-routes-info": "latest"
+  },
+  "devDependencies": {
+    "@quoin/expressjs-routes-info": "latest",
+    "express": "4"
+  }
+}
