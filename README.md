@@ -22,7 +22,7 @@ This package allows to add change logs to a WarpJS document.
 
 Object containing list of available actions. Also see issue #1.
 
-### .ChangeLogsError
+### .Error
 
 Error thrown if any issue.
 
