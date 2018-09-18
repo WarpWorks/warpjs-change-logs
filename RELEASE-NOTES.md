@@ -1,5 +1,9 @@
 # WarpJS ChangeLogs RELEASE NOTES
 
+## 1.0.4 - 2018-09-18
+
+- Changed to `warpjs-utils`: `latest`.
+
 ## 1.0.3 - 2018-08-02
 
 - Fixed to handle case of admin user (id=-1).
