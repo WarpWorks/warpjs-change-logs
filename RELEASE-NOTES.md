@@ -1,5 +1,9 @@
 # WarpJS ChangeLogs RELEASE NOTES
 
+## 1.0.5 - 2019-04-30
+
+- Notifications.
+
 ## 1.0.4 - 2018-09-18
 
 - Changed to `warpjs-utils`: `latest`.
