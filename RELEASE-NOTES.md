@@ -1,5 +1,9 @@
 # WarpJS ChangeLogs RELEASE NOTES
 
+## 1.0.6 - 2019-05-07
+
+- Adding the action type to notification.
+
 ## 1.0.5 - 2019-04-30
 
 - Notifications.
