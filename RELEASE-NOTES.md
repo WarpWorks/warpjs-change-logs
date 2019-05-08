@@ -1,5 +1,9 @@
 # WarpJS ChangeLogs RELEASE NOTES
 
+## 1.0.7 - 2019-05-08
+
+- Getting implementation specific `toNotificationJson()`.
+
 ## 1.0.6 - 2019-05-07
 
 - Adding the action type to notification.
