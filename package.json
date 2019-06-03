@@ -1,6 +1,6 @@
 {
   "name": "@warp-works/warpjs-change-logs",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Change logs library for WarpJS.",
   "main": "index.js",
   "engines": {
@@ -32,27 +32,28 @@
   },
   "homepage": "https://github.com/WarpWorks/warpjs-change-logs#readme",
   "dependencies": {
-    "bluebird": "~3.5.4",
+    "bluebird": "~3.5.5",
     "debug": "~4.1.1",
     "lodash": "~4.17.11"
   },
   "peerDependencies": {
-    "@quoin/expressjs-routes-info": "~0.2.1",
-    "@warp-works/warpjs-utils": "~1.2.91",
-    "express": "~4.16.4"
+    "@quoin/expressjs-routes-info": ">=0.2.1",
+    "@warp-works/warpjs-utils": ">=1.2.91",
+    "express": ">=4.17.1"
   },
   "devDependencies": {
-    "@quoin/eslint-config-quoin": "latest",
+    "@quoin/eslint-config-quoin": "~0.3.1",
     "@quoin/expressjs-routes-info": "~0.2.1",
     "@warp-works/warpjs-plugins": "latest",
-    "@warp-works/warpjs-utils": "~1.2.91",
+    "@warp-works/warpjs-utils": "~1.2.94",
     "eslint": "~5.16.0",
-    "eslint-plugin-html": "~5.0.3",
-    "eslint-plugin-import": "~2.17.2",
+    "eslint-config-standard": "~12.0.0",
+    "eslint-plugin-html": "~5.0.5",
+    "eslint-plugin-import": "~2.17.3",
     "eslint-plugin-json": "~1.4.0",
-    "eslint-plugin-node": "~9.0.1",
+    "eslint-plugin-node": "~9.1.0",
     "eslint-plugin-promise": "~4.1.1",
     "eslint-plugin-standard": "~4.0.0",
-    "express": "~4.16.4"
+    "express": "~4.17.1"
   }
 }

@@ -1,5 +1,9 @@
 # WarpJS ChangeLogs RELEASE NOTES
 
+## 1.0.8 - 2019-06-03
+
+- Fixed `express` peerDependency.
+
 ## 1.0.7 - 2019-05-08
 
 - Getting implementation specific `toNotificationJson()`.
