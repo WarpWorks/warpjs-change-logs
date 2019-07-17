@@ -1,5 +1,9 @@
 # WarpJS ChangeLogs RELEASE NOTES
 
+## 1.0.9 - 2019-07-17
+
+- lodash CVE-2019-10744
+
 ## 1.0.8 - 2019-06-03
 
 - Fixed `express` peerDependency.
