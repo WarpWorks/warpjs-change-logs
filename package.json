@@ -1,6 +1,6 @@
 {
   "name": "@warp-works/warpjs-change-logs",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Change logs library for WarpJS.",
   "main": "index.js",
   "publishConfig": {
@@ -41,8 +41,8 @@
     "lodash": "^4.17.21"
   },
   "peerDependencies": {
-    "@quoin/expressjs-routes-info": ">=1.0.0-rc.1",
-    "@warp-works/warpjs-utils": ">=2.0.0-rc.2",
+    "@quoin/expressjs-routes-info": ">=2.0.0",
+    "@warp-works/warpjs-utils": ">=2.0.0",
     "express": ">=4.17.1"
   },
   "devDependencies": {
