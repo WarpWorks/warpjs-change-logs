@@ -1,6 +1,6 @@
 {
   "name": "@warp-works/warpjs-change-logs",
-  "version": "2.0.0-rc.1",
+  "version": "2.0.0",
   "description": "Change logs library for WarpJS.",
   "main": "index.js",
   "publishConfig": {
@@ -46,11 +46,11 @@
     "express": ">=4.17.1"
   },
   "devDependencies": {
-    "@quoin/eslint-config-quoin": "^1.0.0-rc.2",
-    "@quoin/expressjs-routes-info": "^1.0.0-rc.1",
-    "@warp-works/warpjs-plugins": "^2.0.0-rc.1",
-    "@warp-works/warpjs-utils": "^2.0.0-rc.2",
-    "eslint": "^7.28.0",
+    "@quoin/eslint-config-quoin": "^2.0.1",
+    "@quoin/expressjs-routes-info": "^2.0.0",
+    "@warp-works/warpjs-plugins": "^2.0.0",
+    "@warp-works/warpjs-utils": "^2.0.0",
+    "eslint": "^7.29.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.23.4",
