@@ -1,3 +1,4 @@
 /.eslintrc*
+/.github
 /.npmignore
 /warp-works-*.tgz
